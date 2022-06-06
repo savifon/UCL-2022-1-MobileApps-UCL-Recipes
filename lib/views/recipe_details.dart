@@ -6,8 +6,6 @@ import 'package:ucl_recipes/widgets/app_title.dart';
 class RecipeDetails extends StatefulWidget {
   const RecipeDetails({Key? key}) : super(key: key);
 
-  static const routeName = '/recipe_details';
-
   @override
   State<RecipeDetails> createState() => _RecipeDetailsState();
 }

@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         '/user_menu_account': (context) => const UserMenuAccount(),
         '/recipe_search': (context) => const RecipeSearch(),
         '/recipe_list': (context) => const RecipeList(),
-        RecipeDetails.routeName: (context) => const RecipeDetails()
+        '/recipe_details': (context) => const RecipeDetails()
       },
     );
   }
